@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "identifier": "classic_pizzas",
+    "label": "Classic Pizzas"
+  },
+  {
+    "id": "2",
+    "identifier": "gourmet_pizzas",
+    "label": "Gourmet Pizzas"
+  },
+  {
+    "id": "3",
+    "identifier": "soft_drinks",
+    "label": "Soft Drinks"
+  },
+  {
+    "id": "4",
+    "identifier": "alcoholic_drinks",
+    "label": "Alcoholic Drinks"
+  }
+]

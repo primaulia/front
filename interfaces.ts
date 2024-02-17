@@ -6,3 +6,9 @@ export interface ItemType {
   label: string;
   price: number | null;
 }
+
+export interface SectionType {
+  id: string;
+  identifier: string;
+  label: string;
+}
