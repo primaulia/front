@@ -15,72 +15,84 @@
                 "id": "1",
                 "label": "Margherita Pizza",
                 "identifier": "margherita_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 12.99
               },
               {
                 "id": "2",
                 "label": "Pepperoni Pizza",
                 "identifier": "pepperoni_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 13.99
               },
               {
                 "id": "8",
                 "label": "10\" Pizza",
                 "identifier": "10\"_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 0
               },
               {
                 "id": "9",
                 "label": "12\" Pizza",
                 "identifier": "12\"_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 1
               },
               {
                 "id": "10",
                 "label": "Regular Crust Pizza",
                 "identifier": "regular_crust_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 0
               },
               {
                 "id": "11",
                 "label": "Stuffed Crust Pizza",
                 "identifier": "stuffed_crust_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 1
               },
               {
                 "id": "14",
                 "label": "Pizza blanco",
                 "identifier": "pizza_blanco",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": null
               },
               {
                 "id": "15",
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": null
               },
               {
                 "id": "16",
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": null
               },
               {
                 "id": "17",
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": null
               },
               {
                 "id": "18",
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": null
               },
               {
                 "id": "19",
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": null
               }
             ]
@@ -95,18 +107,21 @@
                 "id": "3",
                 "label": "Hawaiian Pizza",
                 "identifier": "hawaiian_pizza",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 14.99
               },
               {
                 "id": "12",
                 "label": "Garlic Butter Sauce",
                 "identifier": "garlic_butter_sauce",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 0.5
               },
               {
                 "id": "13",
                 "label": "Tomato Sauce",
                 "identifier": "tomato_sauce",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 0.5
               }
             ]
@@ -127,12 +142,14 @@
                 "id": "4",
                 "label": "Coca-Cola",
                 "identifier": "coca-cola",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 2.5
               },
               {
                 "id": "5",
                 "label": "Sprite",
                 "identifier": "sprite",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 2.5
               }
             ]
@@ -147,12 +164,14 @@
                 "id": "6",
                 "label": "Beer",
                 "identifier": "beer",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 5
               },
               {
                 "id": "7",
                 "label": "Wine",
                 "identifier": "wine",
+                "description": "Lorem ipsum dolor sit amet",
                 "price": 6
               }
             ]
