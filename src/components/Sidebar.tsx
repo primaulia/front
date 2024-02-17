@@ -1,10 +1,10 @@
 import { SectionType } from "../../interfaces.ts";
 
-interface SidebarProps {
+interface Sections {
   sections: SectionType[];
 }
 
-export function Sidebar({ sections }: SidebarProps) {
+export function Sidebar({ sections }: Sections) {
   return (
     <div className="">
       <ul>

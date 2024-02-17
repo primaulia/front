@@ -9,6 +9,7 @@
             "id": "1",
             "identifier": "classic_pizzas",
             "label": "Classic Pizzas",
+            "description": "Lorem ipsum dolor sit amet",
             "items": [
               {
                 "id": "1",
@@ -88,6 +89,7 @@
             "id": "2",
             "identifier": "gourmet_pizzas",
             "label": "Gourmet Pizzas",
+            "description": "Lorem ipsum dolor sit amet",
             "items": [
               {
                 "id": "3",
@@ -119,6 +121,7 @@
             "id": "3",
             "identifier": "soft_drinks",
             "label": "Soft Drinks",
+            "description": "Lorem ipsum dolor sit amet",
             "items": [
               {
                 "id": "4",
@@ -138,6 +141,7 @@
             "id": "4",
             "identifier": "alcoholic_drinks",
             "label": "Alcoholic Drinks",
+            "description": "Lorem ipsum dolor sit amet",
             "items": [
               {
                 "id": "6",

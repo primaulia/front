@@ -1,4 +1,4 @@
-import { ItemsList } from "./components/ItemsList";
+import { Main } from "./components/Main.tsx";
 import { Sidebar } from "./components/Sidebar";
 import { SectionType } from "../interfaces.ts";
 
@@ -9,10 +9,10 @@ function App() {
 
   return (
     <div className="container mx-auto">
-      <h1 className="mb-4 text-3xl font-bold underline">Pizza Planet!</h1>
+      <h1 className="my-4 text-3xl font-bold">Pizza Planet!</h1>
       <div className="flex gap-6">
         <Sidebar sections={sections} />
-        <ItemsList sections={sections} />
+        <Main sections={sections} />
       </div>
     </div>
   );
