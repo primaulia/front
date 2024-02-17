@@ -9,7 +9,7 @@ export function Main({ sections }: Sections) {
   return (
     <div className="flex-1">
       {sections.map((section: SectionType) => {
-        return <Section section={section} />;
+        return <Section section={section} key={section.id} />;
       })}
     </div>
   );

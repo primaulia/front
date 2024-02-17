@@ -10,13 +10,15 @@
             "identifier": "classic_pizzas",
             "label": "Classic Pizzas",
             "description": "Lorem ipsum dolor sit amet",
+            "available": true,
             "items": [
               {
                 "id": "1",
                 "label": "Margherita Pizza",
                 "identifier": "margherita_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": false,
                 "price": 12.99
               },
               {
@@ -24,7 +26,8 @@
                 "label": "Pepperoni Pizza",
                 "identifier": "pepperoni_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 13.99
               },
               {
@@ -32,7 +35,8 @@
                 "label": "10\" Pizza",
                 "identifier": "10\"_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 0
               },
               {
@@ -40,7 +44,8 @@
                 "label": "12\" Pizza",
                 "identifier": "12\"_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 1
               },
               {
@@ -48,7 +53,8 @@
                 "label": "Regular Crust Pizza",
                 "identifier": "regular_crust_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 0
               },
               {
@@ -56,7 +62,8 @@
                 "label": "Stuffed Crust Pizza",
                 "identifier": "stuffed_crust_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 1
               },
               {
@@ -64,7 +71,8 @@
                 "label": "Pizza blanco",
                 "identifier": "pizza_blanco",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": null
               },
               {
@@ -72,7 +80,8 @@
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": null
               },
               {
@@ -80,7 +89,8 @@
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": null
               },
               {
@@ -88,7 +98,8 @@
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": null
               },
               {
@@ -96,7 +107,8 @@
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": null
               },
               {
@@ -104,7 +116,8 @@
                 "label": "15 Inch Pizza",
                 "identifier": "15_inch_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": null
               }
             ]
@@ -114,13 +127,15 @@
             "identifier": "gourmet_pizzas",
             "label": "Gourmet Pizzas",
             "description": "Lorem ipsum dolor sit amet",
+            "available": false,
             "items": [
               {
                 "id": "3",
                 "label": "Hawaiian Pizza",
                 "identifier": "hawaiian_pizza",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 14.99
               },
               {
@@ -128,7 +143,8 @@
                 "label": "Garlic Butter Sauce",
                 "identifier": "garlic_butter_sauce",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 0.5
               },
               {
@@ -136,7 +152,8 @@
                 "label": "Tomato Sauce",
                 "identifier": "tomato_sauce",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 0.5
               }
             ]
@@ -158,7 +175,8 @@
                 "label": "Coca-Cola",
                 "identifier": "coca-cola",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 2.5
               },
               {
@@ -166,7 +184,8 @@
                 "label": "Sprite",
                 "identifier": "sprite",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 2.5
               }
             ]
@@ -182,7 +201,8 @@
                 "label": "Beer",
                 "identifier": "beer",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 5
               },
               {
@@ -190,7 +210,8 @@
                 "label": "Wine",
                 "identifier": "wine",
                 "description": "Lorem ipsum dolor sit amet",
-                "imageUrl": "https://picsum.photos/200",
+                "imageUrl": "https://picsum.photos/400",
+                "available": true,
                 "price": 6
               }
             ]

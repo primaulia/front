@@ -6,6 +6,7 @@ export interface ItemType {
   label: string;
   description: string;
   imageUrl: string;
+  available: boolean;
   price: number | null;
 }
 
