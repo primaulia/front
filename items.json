@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1",
+    "identifier": "margherita_pizza",
+    "label": "Margherita Pizza",
+    "price": 12.99
+  },
+  {
+    "id": "2",
+    "identifier": "pepperoni_pizza",
+    "label": "Pepperoni Pizza",
+    "price": 13.99
+  },
+  {
+    "id": "3",
+    "identifier": "hawaiian_pizza",
+    "label": "Hawaiian Pizza",
+    "price": 14.99
+  },
+  {
+    "id": "4",
+    "identifier": "coca-cola",
+    "label": "Coca-Cola",
+    "price": 2.5
+  },
+  {
+    "id": "5",
+    "identifier": "sprite",
+    "label": "Sprite",
+    "price": 2.5
+  },
+  {
+    "id": "6",
+    "identifier": "beer",
+    "label": "Beer",
+    "price": 5
+  },
+  {
+    "id": "7",
+    "identifier": "wine",
+    "label": "Wine",
+    "price": 6
+  },
+  {
+    "id": "8",
+    "identifier": "10\"_pizza",
+    "label": "10\" Pizza",
+    "price": 0
+  },
+  {
+    "id": "9",
+    "identifier": "12\"_pizza",
+    "label": "12\" Pizza",
+    "price": 1
+  },
+  {
+    "id": "10",
+    "identifier": "regular_crust_pizza",
+    "label": "Regular Crust Pizza",
+    "price": 0
+  },
+  {
+    "id": "11",
+    "identifier": "stuffed_crust_pizza",
+    "label": "Stuffed Crust Pizza",
+    "price": 1
+  },
+  {
+    "id": "12",
+    "identifier": "garlic_butter_sauce",
+    "label": "Garlic Butter Sauce",
+    "price": 0.5
+  },
+  {
+    "id": "13",
+    "identifier": "tomato_sauce",
+    "label": "Tomato Sauce",
+    "price": 0.5
+  },
+  {
+    "id": "14",
+    "identifier": "pizza_blanco",
+    "label": "Pizza blanco",
+    "price": null
+  },
+  {
+    "id": "15",
+    "identifier": "15_inch_pizza",
+    "label": "15 Inch Pizza",
+    "price": null
+  },
+  {
+    "id": "16",
+    "identifier": "15_inch_pizza",
+    "label": "15 Inch Pizza",
+    "price": null
+  },
+  {
+    "id": "17",
+    "identifier": "15_inch_pizza",
+    "label": "15 Inch Pizza",
+    "price": null
+  },
+  {
+    "id": "18",
+    "identifier": "15_inch_pizza",
+    "label": "15 Inch Pizza",
+    "price": null
+  },
+  {
+    "id": "19",
+    "identifier": "15_inch_pizza",
+    "label": "15 Inch Pizza",
+    "price": null
+  }
+]
