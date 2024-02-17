@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="container mx-auto">
       <h1 className="mb-4 text-3xl font-bold underline">Pizza Planet!</h1>
-      <div className="flex">
+      <div className="flex gap-6">
         <Sidebar sections={sections} />
-        <ItemsList />
+        <ItemsList sections={sections} />
       </div>
     </div>
   );
