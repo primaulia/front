@@ -11,4 +11,5 @@ export interface SectionType {
   id: string;
   identifier: string;
   label: string;
+  items: [ItemType];
 }
