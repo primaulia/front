@@ -1,10 +1,9 @@
-import "./App.css";
 import { Item } from "./components/Item";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="container mx-auto">
+      <h1 className="font-bold text-3xl underline">Pizza Planet!</h1>
       <Item />
     </div>
   );

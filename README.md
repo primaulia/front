@@ -1,5 +1,14 @@
 # Grain Challenge (React + TypeScript + Vite)
 
+## Changelogs
+
+### Version 0
+
+- This is the initial setup phase. Installing various packages needed to run the application
+- Created dummy json data to test the layout
+- Install tailwindcss for easy css setup and minimize creation of custom css
+- Build the first layout iteration
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
