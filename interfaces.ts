@@ -5,6 +5,7 @@ export interface ItemType {
   identifier: string;
   label: string;
   description: string;
+  imageUrl: string;
   price: number | null;
 }
 

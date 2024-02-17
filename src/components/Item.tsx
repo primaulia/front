@@ -7,6 +7,7 @@ interface ItemProps {
 export function Item({ item }: ItemProps) {
   return (
     <div className="rounded-lg p-4 shadow-lg" key={item.id}>
+      <img src={item.imageUrl} alt={item.label} />
       <h3 className="text-xl">{item.label}</h3>
       <p>{item.description}</p>
       <span>${item.price}</span>
