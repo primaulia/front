@@ -1,23 +1,14 @@
-import itemsData from "../../items.json";
-type Item = {
-  id: string;
-  identifier: string;
-  label: string;
-  price: number | null;
-};
-export function Item() {
+import { ItemType } from "../../interfaces.ts";
+
+interface ItemProps {
+  item: ItemType; // Use the existing Product interface
+}
+
+export function Item({ item }: ItemProps) {
   return (
-    <div className="container">
-      <div className="blog">
-        {itemsData.map((item: Item) => (
-          <div className="card" key={item.id}>
-            <div className="details">
-              <h2>{item.label}</h2>
-              <h4>{item.price}</h4>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="rounded-lg shadow-lg" key={item.id}>
+      <h2>{item.label}</h2>
+      <h4>{item.price}</h4>
     </div>
   );
 }
