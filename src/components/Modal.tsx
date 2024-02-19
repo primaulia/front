@@ -46,13 +46,13 @@ export function Modal({ item, onClose }: ModalProps) {
         >
           X
         </button>
-        <div className="flex gap-2">
+        <div className="flex flex-col gap-2 md:flex-row">
           <img
             src={item.imageUrl || "https://picsum.photos/560"}
             alt={item.label}
-            className="w-1/2"
+            className="md:w-1/2"
           />
-          <div className="px-4 py-2">
+          <div className="px-4 pb-4 md:py-2">
             <h3 className="text-xl">{item.label}</h3>
             <p>{item.description}</p>
           </div>
