@@ -1,6 +1,6 @@
 # Grain Challenge (React + TypeScript + Vite)
 
-## Changelogs
+## Change logs
 
 ### Version 0 (Not connected to Rails yet)
 
@@ -14,3 +14,5 @@
     <img width="1440" alt="Product" src="https://github.com/primaulia/grain-front/assets/1294303/4557a101-fc98-4408-b61a-81012d8aaf1d">
   - Unavailable Section page
     <img width="1440" alt="Screenshot 2024-02-19 at 2 40 04 PM" src="https://github.com/primaulia/grain-front/assets/1294303/87def45e-9e9b-4df2-9ac4-db04c3c327a1">
+
+### Version 1 (Connected with GraphQl-ed Rails)

@@ -1,11 +1,34 @@
+import { useQuery, gql } from "@apollo/client";
+
 import { Main } from "./components/Main.tsx";
 import { Sidebar } from "./components/Sidebar";
 import { SectionType } from "../interfaces.ts";
 
-import { data } from "../dummy/data.json";
+const GET_MENU = gql`
+  {
+    menus {
+      id
+      label
+      sections {
+        id
+        identifier
+        label
+        items {
+          id
+          label
+          identifier
+          price
+        }
+      }
+    }
+  }
+`;
 
 function App() {
-  const sections: SectionType[] = data["menus"][0]["sections"] as SectionType[];
+  const { data: grapqlData } = useQuery(GET_MENU);
+  const sections: SectionType[] = grapqlData["menus"][0][
+    "sections"
+  ] as SectionType[];
 
   return (
     <div className="container mx-auto">
