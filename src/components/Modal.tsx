@@ -47,7 +47,10 @@ export function Modal({ item, onClose }: ModalProps) {
           X
         </button>
         <div className="flex gap-2">
-          <img src={item.imageUrl} alt={item.label} />
+          <img
+            src={item.imageUrl || "https://picsum.photos/560"}
+            alt={item.label}
+          />
           <div className="px-4 py-2">
             <h3 className="text-xl">{item.label}</h3>
             <p>{item.description}</p>

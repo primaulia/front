@@ -21,7 +21,10 @@ export function Item({ item, section }: ItemProps) {
 
   return (
     <motion.div className="rounded-b-lg shadow-lg" key={item.id}>
-      <img src={item.imageUrl} alt={item.label} />
+      <img
+        src={item.imageUrl || "https://picsum.photos/400"}
+        alt={item.label}
+      />
       <div className="p-4">
         <h3 className="text-xl">{item.label}</h3>
         <p>{item.description}</p>

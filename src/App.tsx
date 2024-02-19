@@ -13,11 +13,15 @@ const GET_MENU = gql`
         id
         identifier
         label
+        available
         items {
           id
           label
           identifier
+          description
           price
+          available
+          imageUrl
         }
       }
     }
@@ -25,7 +29,11 @@ const GET_MENU = gql`
 `;
 
 function App() {
-  const { data: grapqlData } = useQuery(GET_MENU);
+  const { loading, error, data: grapqlData } = useQuery(GET_MENU);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error : {error.message}</p>;
+
   const sections: SectionType[] = grapqlData["menus"][0][
     "sections"
   ] as SectionType[];
