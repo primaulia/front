@@ -5,35 +5,12 @@
 ### Version 0
 
 - This is the initial setup phase. Installing various packages needed to run the application
-- Created dummy json data to test the layout
-- Install tailwindcss for easy css setup and minimize creation of custom css
+- Created dummy JSON data to test the layout
+- Install TailwindCss for easy CSS setup and minimize the creation of custom css
 - Build the first layout iteration
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  - Menu + Unavailable Product page
+    <img width="1440" alt="Menu + Unavailable Items" src="https://github.com/primaulia/grain-front/assets/1294303/266ac0d8-34bf-43c5-9b9a-f6205a9ab853">
+  - Product page
+    <img width="1440" alt="Product" src="https://github.com/primaulia/grain-front/assets/1294303/4557a101-fc98-4408-b61a-81012d8aaf1d">
+  - Unavailable Section page
+    <img width="1440" alt="Unavailable Section" src="https://github.com/primaulia/grain-front/assets/1294303/781cff69-9a09-41ab-b2ea-c81b7514f5d9">
