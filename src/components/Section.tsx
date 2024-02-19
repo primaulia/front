@@ -9,6 +9,7 @@ interface SectionProps {
 export function Section({ section }: SectionProps) {
   return (
     <div
+      id={section.identifier}
       className={`mb-8 ${section.available ? "" : "cursor-not-allowed opacity-50"}`}
       key={section.id}
     >

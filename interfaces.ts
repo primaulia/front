@@ -15,5 +15,6 @@ export interface SectionType {
   identifier: string;
   label: string;
   description: string;
+  available: boolean;
   items: [ItemType];
 }

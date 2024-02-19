@@ -15,14 +15,12 @@ export function Modal({ item, onClose }: ModalProps) {
   const modalVariants = {
     open: {
       opacity: 1,
-      scale: 1,
       transition: {
-        duration: 0.3,
+        duration: 0.2,
       },
     },
     closed: {
       opacity: 0,
-      scale: 0,
       transition: {
         duration: 0.2,
       },
@@ -39,19 +37,19 @@ export function Modal({ item, onClose }: ModalProps) {
       onClick={handleCloseClick}
     >
       <motion.div
-        className="relative mx-auto rounded-md bg-white p-8 transition-transform"
+        className="relative mx-auto bg-white transition-transform"
         variants={modalVariants}
       >
         <button
           onClick={handleCloseClick}
-          className="rounded bg-indigo-500 px-2 text-white"
+          className="absolute right-0 top-0 bg-indigo-500 px-2 text-white"
         >
           X
         </button>
         <div className="flex gap-2">
           <img src={item.imageUrl} alt={item.label} />
-          <div>
-            <h3 class="text-xl">{item.label}</h3>
+          <div className="px-4 py-2">
+            <h3 className="text-xl">{item.label}</h3>
             <p>{item.description}</p>
           </div>
         </div>
