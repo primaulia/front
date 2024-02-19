@@ -37,7 +37,7 @@ export function Modal({ item, onClose }: ModalProps) {
       onClick={handleCloseClick}
     >
       <motion.div
-        className="relative mx-auto bg-white transition-transform"
+        className="relative mx-auto w-3/4 bg-white transition-transform"
         variants={modalVariants}
       >
         <button
@@ -50,6 +50,7 @@ export function Modal({ item, onClose }: ModalProps) {
           <img
             src={item.imageUrl || "https://picsum.photos/560"}
             alt={item.label}
+            className="w-1/2"
           />
           <div className="px-4 py-2">
             <h3 className="text-xl">{item.label}</h3>
