@@ -12,6 +12,7 @@ const GET_MENU = gql`
       sections {
         id
         identifier
+        description
         label
         available
         items {
