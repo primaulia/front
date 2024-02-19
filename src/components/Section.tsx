@@ -17,7 +17,7 @@ export function Section({ section }: SectionProps) {
       <p className="mb-2">{section.description}</p>
       <div className="grid grid-cols-4 gap-4">
         {section.items.map((item: ItemType) => (
-          <Item item={item} key={item.id} />
+          <Item item={item} section={section} key={item.id} />
         ))}
       </div>
     </div>
