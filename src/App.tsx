@@ -15,7 +15,7 @@ const GET_MENU = gql`
         description
         label
         available
-        items {
+        products {
           id
           label
           identifier
@@ -31,6 +31,8 @@ const GET_MENU = gql`
 
 function App() {
   const { loading, error, data: grapqlData } = useQuery(GET_MENU);
+
+  console.log({ grapqlData });
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error : {error.message}</p>;

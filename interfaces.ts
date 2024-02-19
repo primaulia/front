@@ -16,5 +16,5 @@ export interface SectionType {
   label: string;
   description: string;
   available: boolean;
-  items: [ItemType];
+  products: [ItemType];
 }
