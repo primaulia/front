@@ -1,5 +1,7 @@
 # Grain Challenge (React + TypeScript + Vite)
 
+Access the prototype here(TODO)
+
 ## Change logs
 
 ### Version 0 (Not connected to Rails yet)
@@ -21,5 +23,13 @@
 - Updates on the Rails app can be seen here(TODO)
 - Update the layout further and make it mobile friendly
   - Menu + Unavailable Product page
+    ![Screenshot 2024-02-20 at 10 31 14 PM](https://github.com/primaulia/grain-front/assets/1294303/3bcdec3f-b278-46ee-8b2d-dbf7d9150292)
+    ![Screenshot 2024-02-20 at 10 48 00 PM](https://github.com/primaulia/grain-front/assets/1294303/1ee90d67-6439-4a43-aca3-74ae8485f70d)
   - Product page
+    ![Screenshot 2024-02-20 at 10 31 29 PM](https://github.com/primaulia/grain-front/assets/1294303/f5c56e1b-bd5e-4d0e-8399-3e73fd3f3ec6)
+    ![Screenshot 2024-02-20 at 10 48 21 PM](https://github.com/primaulia/grain-front/assets/1294303/780bd883-cb47-4be2-a4b9-2144f0e0fb95)
   - Unavailable Section page
+    ![Screenshot 2024-02-20 at 10 32 00 PM](https://github.com/primaulia/grain-front/assets/1294303/be21901e-1a2b-47ec-89b8-225e65a3a94b)
+    ![Screenshot 2024-02-20 at 10 48 12 PM](https://github.com/primaulia/grain-front/assets/1294303/da60ef4c-2c89-468b-9d72-0e25a72d8a19)
+
+
