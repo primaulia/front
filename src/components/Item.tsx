@@ -28,7 +28,7 @@ export function Item({ item, section }: ItemProps) {
         src={item.imageUrl || "https://picsum.photos/400"}
         alt={item.label}
       />
-      <div className="flex flex-1 flex-col p-4">
+      <div className="flex flex-1 flex-col p-2 md:p-4">
         <h3 className="text-xl">{item.label}</h3>
         <p className="flex-1">
           {item.description && item.description.substring(0, 20) + "..."}
