@@ -4,6 +4,8 @@ import { Menus } from "./components/Menus.tsx";
 import { Sidebar } from "./components/Sidebar";
 import { MenuType } from "../interfaces.ts";
 
+import logo from "./assets/logo.png";
+
 const GET_MENU = gql`
   {
     menus {
@@ -38,11 +40,15 @@ function App() {
   const menus: MenuType[] = grapqlData["menus"];
 
   return (
-    <div className="container mx-auto px-4 md:p-0">
-      <h1 className="my-4 text-3xl font-bold">Pizza Planet!</h1>
-      <div className="flex flex-col gap-6 md:flex-row">
-        <Sidebar menus={menus} />
-        <Menus menus={menus} />
+    <div>
+      <div className="my-4 flex justify-center bg-lime-400 py-2">
+        <img className="h-20" src={logo} alt="Pizza Planet Logo" />
+      </div>
+      <div className="container mx-auto px-4 md:p-0">
+        <div className="flex flex-col gap-6 md:flex-row">
+          <Sidebar menus={menus} />
+          <Menus menus={menus} />
+        </div>
       </div>
     </div>
   );
