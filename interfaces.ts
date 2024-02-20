@@ -18,3 +18,10 @@ export interface SectionType {
   available: boolean;
   products: [ItemType];
 }
+
+export interface MenuType {
+  id: string;
+  identifier: string;
+  label: string;
+  sections: [SectionType];
+}
