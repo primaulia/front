@@ -41,8 +41,10 @@ function App() {
 
   return (
     <div>
-      <div className="my-4 flex justify-center bg-lime-400 py-2">
-        <img className="h-20" src={logo} alt="Pizza Planet Logo" />
+      <div className="mb-4 py-2">
+        <div className="container mx-auto flex justify-center px-4 md:justify-start md:p-0">
+          <img className="h-36" src={logo} alt="Pizza Planet Logo" />
+        </div>
       </div>
       <div className="container mx-auto px-4 md:p-0">
         <div className="flex flex-col gap-6 md:flex-row">

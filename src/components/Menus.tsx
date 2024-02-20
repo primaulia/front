@@ -12,7 +12,7 @@ export function Menus({ menus }: MenuProps) {
       {menus.map((menu: MenuType) => (
         <>
           <h1
-            className="my-4 bg-indigo-500 px-2 text-3xl font-semibold text-white"
+            className="my-4 bg-red-500 px-2 text-3xl font-semibold text-white"
             key={menu.id}
           >
             {menu.label}

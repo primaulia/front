@@ -37,12 +37,12 @@ export function Modal({ item, onClose }: ModalProps) {
       onClick={handleCloseClick}
     >
       <motion.div
-        className="relative mx-auto w-1/2 bg-white transition-transform"
+        className="relative mx-auto w-3/4 bg-white transition-transform md:w-1/2"
         variants={modalVariants}
       >
         <button
           onClick={handleCloseClick}
-          className="absolute right-0 top-0 bg-indigo-500 px-2 text-white"
+          className="absolute right-0 top-0 bg-red-500 px-2 text-white"
         >
           X
         </button>

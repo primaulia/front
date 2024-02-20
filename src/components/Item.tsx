@@ -33,7 +33,7 @@ export function Item({ item, section }: ItemProps) {
         <div className="my-2 flex justify-between justify-self-end">
           <span>${item.price}</span>
           <button
-            className={`${canClick(item, section) ? "text-white" : "cursor-not-allowed text-gray-400"} rounded bg-indigo-500 px-2 `}
+            className={`${canClick(item, section) ? "bg-red-500 text-white" : "cursor-not-allowed bg-red-300 text-gray-200"} rounded  px-2 `}
             onClick={() => handleItemClick(item)}
           >
             {canClick(item, section) ? "+" : "Not available"}
