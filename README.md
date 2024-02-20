@@ -20,7 +20,7 @@ Access the prototype here - https://resilient-dieffenbachia-1c35f6.netlify.app/
 ### Version 1 (Connected with GraphQl-ed Rails)
 
 - Integrate with GraphQL with Apollo client
-- Updates on the Rails app can be seen here(TODO)
+- Updates on the Rails app can be [seen here](https://github.com/primaulia/challenge/blob/master/README.md#version-2-logs)
 - Update the layout further and make it mobile friendly
   - Menu + Unavailable Product page
     ![Screenshot 2024-02-20 at 10 31 14 PM](https://github.com/primaulia/grain-front/assets/1294303/3bcdec3f-b278-46ee-8b2d-dbf7d9150292)
