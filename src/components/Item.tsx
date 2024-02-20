@@ -24,10 +24,7 @@ export function Item({ item, section }: ItemProps) {
       className="flex flex-col justify-between rounded-b-lg shadow-lg"
       key={item.id}
     >
-      <img
-        src={item.imageUrl || "https://picsum.photos/400"}
-        alt={item.label}
-      />
+      {item.imageUrl && <img src={item.imageUrl} alt={item.label} />}
       <div className="flex flex-1 flex-col p-2 md:p-4">
         <h3 className="text-xl">{item.label}</h3>
         <p className="flex-1">
