@@ -30,10 +30,10 @@ export function Item({ item, section }: ItemProps) {
         <p className="flex-1">
           {item.description && item.description.substring(0, 20) + "..."}
         </p>
-        <div className="my-2 flex justify-between justify-self-end">
-          <span>${item.price}</span>
+        <div className="my-2 flex flex-col justify-between justify-self-end md:flex-row md:items-center">
+          <span className="font-semibold">${item.price}</span>
           <button
-            className={`${canClick(item, section) ? "bg-red-500 text-white" : "cursor-not-allowed bg-red-300 text-gray-200"} rounded  px-2 `}
+            className={`${canClick(item, section) ? "bg-red-500 text-white" : "cursor-not-allowed bg-red-300 text-gray-200"} my-2 rounded p-2 md:my-0 md:py-0`}
             onClick={() => handleItemClick(item)}
           >
             {canClick(item, section) ? "+" : "Not available"}
