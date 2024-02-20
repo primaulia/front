@@ -1,6 +1,6 @@
 # Grain Challenge (React + TypeScript + Vite)
 
-Access the prototype here(TODO)
+Access the prototype here - https://resilient-dieffenbachia-1c35f6.netlify.app/
 
 ## Change logs
 
